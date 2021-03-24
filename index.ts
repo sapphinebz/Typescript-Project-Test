@@ -6,5 +6,5 @@ console.log = (...arg: any[]) => {
   appDiv.innerHTML += `<div>${arg.toString()}</div>`;
 };
 
-console.log("Hello", "World");
+console.log("Hello", "World 2");
 console.log("Breaker");
