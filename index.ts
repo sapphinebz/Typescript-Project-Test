@@ -1,6 +1,10 @@
 // Import stylesheets
-import './style.css';
+import "./style.css";
 
-// Write TypeScript code!
-const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
+console.log = (...arg: any[]) => {
+  const appDiv: HTMLElement = document.getElementById("app");
+  appDiv.innerHTML += `<div>${arg.toString()}</div>`;
+};
+
+console.log("Hello", "World");
+console.log("Breaker");
